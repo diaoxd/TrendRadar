@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 37</p><p>生成时间: 2026-01-29 19:05:53</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[期货市场] 商品期货 原油期货 黄金 白银 铜 铝 铁矿石 大宗商品</td>
+                    <td class="count">3</td>
+                    <td class="percentage">8.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7599598829402619958/" target="_blank" class="news-link">黄金狂飙破纪录 专家解读买还是卖</a> [6] <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2274283" target="_blank" class="news-link">【数据看盘】五家机构集体抢筹泸州老窖，铜陵有色龙虎榜现多空博弈</a> [8] <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32484819" target="_blank" class="news-link">起底水贝黄金平台“杰我睿”：资金往来用私人账户，原股东名下平台仍在运营</a> [15] <font color='grey'>- 19时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word"># 过滤无关内容 体育赛事 足球 篮球 奥运会</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32489612" target="_blank" class="news-link">涉足球“假赌黑”陈戌源、李铁等73人被终身禁“足”，大名单公布</a> [11] <font color='grey'>- 19时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[金融行业] 金融监管 银保监会 证监会 国家金融监督管理总局 银行 证券 保险 信托 基金 理财 资产管理 金融科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2274258" target="_blank" class="news-link">二级市场溢价超60%，白银基金再度全天停牌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3764423" target="_blank" class="news-link">特朗普升级对伊施压，布油重回70美元，白银冲上120后回落，黄金突破5500，美元持续下挫</a> [6] <font color='grey'>- 19时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[投资策略] 价值投资 成长投资 周期股 消费股 科技股 金融股 防御性股票 主题投资 ETF 基金投资</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2274164" target="_blank" class="news-link">【每日收评】上证50涨超1.5%，资源类周期股延续强势，白酒、地产板块迎暴力反弹</a> [13] <font color='grey'>- 19时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">[消费龙头] 贵州茅台 五粮液 泸州老窖 伊利股份 海天味业 美的集团 格力电器 海尔智家 @8</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2274253" target="_blank" class="news-link">【焦点复盘】科创50跌超3%，半导体等硬科技方向低迷，贵州茅台大涨近9%收复1400元大关</a> [11] <font color='grey'>- 19时05分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
