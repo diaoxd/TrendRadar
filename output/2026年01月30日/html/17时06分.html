@@ -1,0 +1,103 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 28</p><p>生成时间: 2026-01-30 17:06:26</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[美国经济] 美联储 联邦储备系统 加息 缩表 通胀 失业数据 非农就业 GDP数据 财政部 耶伦</td>
+                    <td class="count">2</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3764541" target="_blank" class="news-link">市场聚焦新美联储主席，美元走强美债下跌，商品市场遭遇黑色星期五，银价跌9%、金价跌5%</a> [6] <font color='grey'>- 17时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7600955218334862884/" target="_blank" class="news-link">美联储按兵不动背后藏着什么信号</a> [27] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[股票市场] A股 上证指数 深证成指 创业板 科创板 北交所 大盘 牛市 熊市 震荡市 成交量 成交额 北向资金 南向资金 融资融券</td>
+                    <td class="count">2</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3764538" target="_blank" class="news-link">沪指跌1%，创业板V型反弹涨超1%，算力硬件反弹，黄金、基本金属掀跌停潮，恒指跌2%，科网股普跌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时06分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2275668" target="_blank" class="news-link">【每日收评】创业板指探底回升涨超1%，算力硬件股集体爆发，资源类周期股批量跌停</a> [13] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2275439" target="_blank" class="news-link">美元大涨、黄金暴跌！特朗普挑了位最“鹰”的鲍威尔接班人？</a> [7] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[期货市场] 商品期货 原油期货 黄金 白银 铜 铝 铁矿石 大宗商品</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7600695832056172038/" target="_blank" class="news-link">银价疯涨真相：全球大国的白银争夺战</a> [15] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
