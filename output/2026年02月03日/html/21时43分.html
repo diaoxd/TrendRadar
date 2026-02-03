@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 38</p><p>生成时间: 2026-02-03 21:43:36</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[中国经济] 中国经济 经济工作会议 中央经济工作会议 国务院常务会议 政治局会议 政府工作报告</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.26%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279459" target="_blank" class="news-link">2026上海科创产业蓝图已绘就！政府工作报告指明方向</a> [11] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32510553" target="_blank" class="news-link">财晓得｜90秒速览政府工作报告！今年上海打算这么干</a> [17] <font color='grey'>- 21时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[股票市场] A股 上证指数 深证成指 创业板 科创板 北交所 大盘 牛市 熊市 震荡市 成交量 成交额 北向资金 南向资金 融资融券</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.26%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279395" target="_blank" class="news-link">2026年首月A股新开492万户，高于2025所有月份，如何看这个数据？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602583384296001087/" target="_blank" class="news-link">A股调整结束了吗</a> [18] <font color='grey'>- 21时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[能源行业] 能源安全 石油 天然气 煤炭 电力 新能源 清洁能源 储能 充电桩 智能电网</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qRsRpYySJZ" target="_blank" class="news-link">特朗普称莫迪同意停止购买俄石油，克宫发声</a> [9] <font color='grey'>- 21时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[基建投资] 基础设施 重大工程 交通建设 水利工程 城市更新 城市管网 物流体系</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32520975" target="_blank" class="news-link">估值1.25万亿美元！马斯克宣布SpaceX收购xAI：瞄准太空AI基础设施</a> [18] <font color='grey'>- 21时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[期货市场] 商品期货 原油期货 黄金 白银 铜 铝 铁矿石 大宗商品</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3764840" target="_blank" class="news-link">中国有色金属工业协会：研究将“铜精矿”纳入国家储备</a> [9] <font color='grey'>- 21时43分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
