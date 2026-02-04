@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 61</p><p>生成时间: 2026-02-04 11:15:32</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[GLOBAL_FILTER] # 过滤娱乐八卦、无关内容 娱乐 明星 八卦 电视剧 综艺 网红 /震惊|惊人|突发|重磅/i /恋爱|分手|结婚|离婚/i /游戏|手游|电竞/i</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.28%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279679" target="_blank" class="news-link">半导体设备&amp;机器人明星股绩后再创新高 财报全面碾压预期</a> [6] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602548337063116851/" target="_blank" class="news-link">600万粉丝网红王奕萌自曝月薪5000元</a> [14] <font color='grey'>- 11时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.28%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qSAk7N1gWi" target="_blank" class="news-link">印美达成贸易协议，分析人士：5000亿美元应被视为“政治信号”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602806779071696438/" target="_blank" class="news-link">现货黄金重新站上5000美元</a> [25] <font color='grey'>- 11时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word"># 过滤无关内容 体育赛事 足球 篮球 奥运会</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602807103224286770/" target="_blank" class="news-link">媒体：乌拉圭总统不止带来牛肉和足球</a> [22] <font color='grey'>- 11时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[能源行业] 能源安全 石油 天然气 煤炭 电力 新能源 清洁能源 储能 充电桩 智能电网</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7601536947350814739/" target="_blank" class="news-link">新能源汽车行驶中底盘着火 2分钟爆燃</a> [30] <font color='grey'>- 11时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[股票市场] A股 上证指数 深证成指 创业板 科创板 北交所 大盘 牛市 熊市 震荡市 成交量 成交额 北向资金 南向资金 融资融券</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3764862" target="_blank" class="news-link">金银反弹，盘中期金涨近8%、白银涨超10%，“死猫跳”还是“牛市重启”？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">[期货市场] 商品期货 原油期货 黄金 白银 铜 铝 铁矿石 大宗商品</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279730" target="_blank" class="news-link">【早报】中央一号文件发布；深夜，黄金白银大反攻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">[科技龙头] 腾讯控股 阿里巴巴 百度 京东 拼多多 美团 小米集团 华为概念 字节跳动概念 @8</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279609" target="_blank" class="news-link">将37颗卫星送上太空的航天界“拼多多” 要IPO</a> [9]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word"># 跨国企业（如果关注国际市场） [跨国企业] 苹果公司 特斯拉 微软 亚马逊 谷歌 英伟达 台积电 三星 丰田汽车 大众汽车 @8</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279758" target="_blank" class="news-link">美国政府本轮“停摆”结束 英伟达据称将投OpenAI 200亿 | 环球市场</a> [8] <font color='grey'>- 11时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
