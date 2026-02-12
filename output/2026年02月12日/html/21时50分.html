@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2026-02-12 21:50:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[能源行业] 能源安全 石油 天然气 煤炭 电力 新能源 清洁能源 储能 充电桩 智能电网</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">强劲财报提振，美股指期货集体上扬，煤炭股盘前上涨，全球存储概念股集体走高，现货黄金小幅下跌</a> [6] <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[股票市场] A股 上证指数 深证成指 创业板 科创板 北交所 大盘 牛市 熊市 震荡市 成交量 成交额 北向资金 南向资金 融资融券</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7605818516108771347/" target="_blank" class="news-link">A股收评：三大指数集体收涨</a> [27] <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32590716" target="_blank" class="news-link">在岸、离岸人民币对美元汇率升破6.9，再创33个月新高</a> [20] <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[主题投资] 国企改革 央企改革 中特估 一带一路 数字经济 人工智能 机器人 人形机器人 低空经济 飞行汽车 商业航天 生物制造 量子技术 合成生物 氢能产业</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32590657" target="_blank" class="news-link">动态调整！职业教育将重点增设低空经济、人工智能等领域新专业</a> [7] <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[板块轮动] 周期板块 消费板块 科技板块 金融板块 医药板块 新能源板块 军工板块 资源板块</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2288560" target="_blank" class="news-link">【焦点复盘】市场全天现深强沪弱，AI硬件端表现火热，大消费板块延续调整</a> [13] <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
