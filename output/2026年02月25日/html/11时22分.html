@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2026-02-25 11:22:12</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[能源行业] 能源安全 石油 天然气 煤炭 电力 新能源 清洁能源 储能 充电桩 智能电网</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2294085" target="_blank" class="news-link">谷歌宣布将新建数据中心：承诺电费全包不涨价 绿电+储能齐推进</a> [7] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8r1Io0tXDTb" target="_blank" class="news-link">普京警告：俄天然气管道或遭袭！</a> [7] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[期货市场] 商品期货 原油期货 黄金 白银 铜 铝 铁矿石 大宗商品</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3766041" target="_blank" class="news-link">Anthropic出手缓解AI担忧，纳指涨超1%，人民币盘中涨破6.88，黄金回落</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7610573513422913555/" target="_blank" class="news-link">中使馆：勿信安哥拉遍地是黄金谣言</a> [11] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[国际财经] 全球通胀 全球经济 经济衰退 经济复苏 供应链 产业链 国际贸易 关税 贸易摩擦 贸易战 技术封锁 制裁 地缘政治 俄乌冲突 中东局势</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8r1Z2HFV2Mj" target="_blank" class="news-link">特朗普走上“关税悬崖”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7610574114150944266/" target="_blank" class="news-link">特朗普走上“关税悬崖”</a> [29] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word"># 过滤标题党词语 太疯狂 太震撼 惊人 意外 突发 重磅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2293968" target="_blank" class="news-link">突发！480亿光模块概念股拟收购股权布局光通信产业链上游|盘后公告集锦</a> [13] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[货币政策] 央行 货币政策 降准 降息 利率 准备金率 公开市场操作 MLF LPR 逆回购 SLF 再贷款</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2294141" target="_blank" class="news-link">【早报】6000亿元！央行今日操作；Meta与AMD达成600亿美元AI芯片采购协议</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">[基建投资] 基础设施 重大工程 交通建设 水利工程 城市更新 城市管网 物流体系</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2294211" target="_blank" class="news-link">火箭发射新方案！马斯克构想“月球弹弓” 包含两大核心基础设施</a> [9] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">[股票市场] A股 上证指数 深证成指 创业板 科创板 北交所 大盘 牛市 熊市 震荡市 成交量 成交额 北向资金 南向资金 融资融券</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2294203" target="_blank" class="news-link">港股IPO开年募资大增10倍，110家A股公司排队港股上市</a> [8] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2294110" target="_blank" class="news-link">众机构唱多三星电子：存储巨头冲击万亿美元市值门槛</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">[投资策略] 价值投资 成长投资 周期股 消费股 科技股 金融股 防御性股票 主题投资 ETF 基金投资</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3766059" target="_blank" class="news-link">“AI末日”报告暗示亚洲科技股有望成赢家，作者点名MiniMax与智谱</a> [8] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
