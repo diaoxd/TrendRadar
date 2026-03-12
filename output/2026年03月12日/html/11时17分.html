@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2026-03-12 11:17:26</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">5</td>
+                    <td class="percentage">9.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rQUIMqYzq2" target="_blank" class="news-link">美国袭击伊朗头6天花费超113亿美元</a> [7] <font color='grey'>- 11时17分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rQVm3uSrPy" target="_blank" class="news-link">日租金77万美元，油轮危机爆发</a> [8] <font color='grey'>- 11时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767251" target="_blank" class="news-link">无视IEA史上最大放储计划，油价重返92美元，市场在传递什么信号？</a> [10] <font color='grey'>- 11时17分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310220" target="_blank" class="news-link">特朗普“对等关税”被推翻后 美国2月关税收入降逾10亿美元</a> [11] <font color='grey'>- 11时17分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310317" target="_blank" class="news-link">3月12日投资避雷针：国际油价再度大幅上涨 布伦特原油期货逼近100美元关口</a> [13] <font color='grey'>- 11时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[期货市场] 商品期货 原油期货 黄金 白银 铜 铝 铁矿石 大宗商品</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615230907238563846/" target="_blank" class="news-link">“黑色黄金”我国重大突破</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616143900847115812/" target="_blank" class="news-link">黄金到底是谁在买谁在卖</a> [10] <font color='grey'>- 11时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word"># 过滤标题党词语 太疯狂 太震撼 惊人 意外 突发 重磅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310003" target="_blank" class="news-link">突发！600亿固态电池概念股拟20.51亿元投建马来西亚负极材料生产基地|盘后公告集锦</a> [12] <font color='grey'>- 11时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[美国经济] 美联储 联邦储备系统 加息 缩表 通胀 失业数据 非农就业 GDP数据 财政部 耶伦</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767236" target="_blank" class="news-link">通胀降温难敌油市恐慌，美股承压、美债遭挫，美元重回99关口，白银下挫3%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[能源行业] 能源安全 石油 天然气 煤炭 电力 新能源 清洁能源 储能 充电桩 智能电网</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767245" target="_blank" class="news-link">过去六天，伊朗石油的出口量，比战前还多！</a> [8] <font color='grey'>- 11时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">[主题投资] 国企改革 央企改革 中特估 一带一路 数字经济 人工智能 机器人 人形机器人 低空经济 飞行汽车 商业航天 生物制造 量子技术 合成生物 氢能产业</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615256693030797331/" target="_blank" class="news-link">机器人当街吓到人 被治安警员带走</a> [23] <font color='grey'>- 11时17分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
