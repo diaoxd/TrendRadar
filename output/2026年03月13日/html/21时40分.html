@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 36</p><p>生成时间: 2026-03-13 21:40:25</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[金融行业] 金融监管 银保监会 证监会 国家金融监督管理总局 银行 证券 保险 信托 基金 理财 资产管理 金融科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">8.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2312550" target="_blank" class="news-link">证监会火速落实两会精神，透露哪些监管新方向？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2312403" target="_blank" class="news-link">证监会：严厉打击财务造假、操纵市场、内幕交易、虚假陈述等违法违规行为</a> [6] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616683264104595510/" target="_blank" class="news-link">彭少东操纵证券市场被罚没逾3700万</a> [27] <font color='grey'>- 21时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[中国经济] 中国经济 经济工作会议 中央经济工作会议 国务院常务会议 政治局会议 政府工作报告</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2312660" target="_blank" class="news-link">政府工作报告（全文）</a> [12] <font color='grey'>- 21时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[美国经济] 美联储 联邦储备系统 加息 缩表 通胀 失业数据 非农就业 GDP数据 财政部 耶伦</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767392" target="_blank" class="news-link">布油破百引爆通胀担忧，全球股市普跌，美元指数重回100关口，日元创20个月新低</a> [9] <font color='grey'>- 21时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[科技行业] 科技创新 数字经济 人工智能产业 芯片产业 半导体产业 集成电路 信创产业 国产替代 专精特新 制造业升级</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32755562" target="_blank" class="news-link">人工智能产业发展联盟：持续跟踪OpenClaw及同类AI智能体的安全风险动态</a> [14] <font color='grey'>- 21时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[消费行业] 消费升级 促消费 消费品 零售 餐饮 旅游 文化消费 体育消费 家电消费</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616699095625613366/" target="_blank" class="news-link">朝鲜旅游又来了吗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">[医疗健康] 医疗改革 医保 药品 医疗器械 医疗服务 健康中国 生物医药</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2312371" target="_blank" class="news-link">全球里程碑事件！国产跑赢Neuralink，上海造侵入式脑机接口医疗器械获批上市</a> [7] <font color='grey'>- 21时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">[股票市场] A股 上证指数 深证成指 创业板 科创板 北交所 大盘 牛市 熊市 震荡市 成交量 成交额 北向资金 南向资金 融资融券</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615953316119445558/" target="_blank" class="news-link">专家建议A股给散户提供T+0制度</a> [29] <font color='grey'>- 21时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">[消费龙头] 贵州茅台 五粮液 泸州老窖 伊利股份 海天味业 美的集团 格力电器 海尔智家 @8</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616692109244776502/" target="_blank" class="news-link">贵州茅台副总经理蒋焰被查</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时40分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
