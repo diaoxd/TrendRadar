@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 23</p><p>生成时间: 2026-03-20 17:06:46</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[能源行业] 能源安全 石油 天然气 煤炭 电力 新能源 清洁能源 储能 充电桩 智能电网</td>
+                    <td class="count">2</td>
+                    <td class="percentage">8.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2319193" target="_blank" class="news-link">石油危机已指向需求破坏！亚洲国家或加倍投入能源转型</a> [6] <font color='grey'>- 17时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7619236870869831195/" target="_blank" class="news-link">中方回应美方或解除对伊朗石油制裁</a> [15] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[货币政策] 央行 货币政策 降准 降息 利率 准备金率 公开市场操作 MLF LPR 逆回购 SLF 再贷款</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767947" target="_blank" class="news-link">从降息到加息！债券市场对美联储政策路径预期发生历史性转变</a> [10] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[医疗健康] 医疗改革 医保 药品 医疗器械 医疗服务 健康中国 生物医药</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618115693423165467/" target="_blank" class="news-link">4月1日起医保卡新规正式落地</a> [7] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2319144" target="_blank" class="news-link">来自沙特的推演！若供应中断持续到4月下旬 油价将飙破180美元</a> [9] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[主题投资] 国企改革 央企改革 中特估 一带一路 数字经济 人工智能 机器人 人形机器人 低空经济 飞行汽车 商业航天 生物制造 量子技术 合成生物 氢能产业</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2318920" target="_blank" class="news-link">商业航天进一步提速 火箭、卫星、运管等各环节投资机遇凸显</a> [13] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">[国际财经] 全球通胀 全球经济 经济衰退 经济复苏 供应链 产业链 国际贸易 关税 贸易摩擦 贸易战 技术封锁 制裁 地缘政治 俄乌冲突 中东局势</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2319356" target="_blank" class="news-link">一文读懂：油价再涨多少会触发全球经济衰退“红线”？</a> [11] <font color='grey'>- 17时06分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
