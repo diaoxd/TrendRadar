@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 21</p><p>生成时间: 2026-04-16 17:57:10</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[股票市场] A股 上证指数 深证成指 创业板 科创板 北交所 大盘 牛市 熊市 震荡市 成交量 成交额 北向资金 南向资金 融资融券</td>
+                    <td class="count">2</td>
+                    <td class="percentage">9.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2346247" target="_blank" class="news-link">【每日收评】创业板指涨超3%刷新近11年新高，锂电板块卷土重来，算力租赁概念再掀高潮</a> [8] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628197149771284490/" target="_blank" class="news-link">A股三大指数集体收涨</a> [20] <font color='grey'>- 17时57分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[房地产行业] 房地产 楼市 房价 房地产政策 住房贷款 限购 限售 保障性住房 租赁住房 城中村改造</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2345979" target="_blank" class="news-link">3月70城房价释放积极信号：一线城市领跑 二手房复苏明显</a> [11] <font color='grey'>- 17时57分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[能源行业] 能源安全 石油 天然气 煤炭 电力 新能源 清洁能源 储能 充电桩 智能电网</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2345809" target="_blank" class="news-link">特朗普“封锁令”影响几何？分析：若石油出口完全断流 伊朗最多两月后须减产！</a> [13] <font color='grey'>- 17时57分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[消费行业] 消费升级 促消费 消费品 零售 餐饮 旅游 文化消费 体育消费 家电消费</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628423559661371435/" target="_blank" class="news-link">莫氏鸡煲老板包鱼塘亏180万后做餐饮</a> [21] <font color='grey'>- 17时57分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628939953220681755/" target="_blank" class="news-link">中巴拟签百亿美元国防大单</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时57分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
