@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2026-06-12 13:14:56</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[期货市场] 商品期货 原油期货 黄金 白银 铜 铝 铁矿石 大宗商品</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7650170784305053759/" target="_blank" class="news-link">女子买黄金从赚30万到亏近20万</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2397705" target="_blank" class="news-link">贝索斯驳斥“AI抢饭碗”论：未来十年将迎多个黄金时代</a> [9] <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3774379" target="_blank" class="news-link">黄金看空情绪升温！交易员押注未来两年将再跌40%</a> [10] <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33364376" target="_blank" class="news-link">澎湃回声｜男子30年前被扣押2859克黄金续：盖州市公安局已返还财产，双方和解</a> [18] <font color='grey'>- 13时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word"># 过滤标题党词语 太疯狂 太震撼 惊人 意外 突发 重磅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3774440" target="_blank" class="news-link">美国5月PPI同比6.5%，创逾三年最大涨幅，核心PPI意外放缓至4.9%</a> [8] <font color='grey'>- 13时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word"># 过滤无关内容 体育赛事 足球 篮球 奥运会</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7649274960845865014/" target="_blank" class="news-link">范志毅怒怼中国足球小将黑粉</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[货币政策] 央行 货币政策 降准 降息 利率 准备金率 公开市场操作 MLF LPR 逆回购 SLF 再贷款</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7650278039506387007/" target="_blank" class="news-link">车贷年利率近18% 为何畸高</a> [22] <font color='grey'>- 13时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[发展规划] 十四五规划 五年规划 中长期规划 区域发展 城市群 都市圈 一带一路 高质量发展 新发展格局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33358796" target="_blank" class="news-link">经纬度：提升都市圈城际通勤效率，让跨城上班更从容</a> [14] <font color='grey'>- 13时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">[金融行业] 金融监管 银保监会 证监会 国家金融监督管理总局 银行 证券 保险 信托 基金 理财 资产管理 金融科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33358818" target="_blank" class="news-link">银行理财经理被指代客理财9年亏损数千万，法院一审判决银行方承担30%损失</a> [19]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word"># 跨国企业（如果关注国际市场） [跨国企业] 苹果公司 特斯拉 微软 亚马逊 谷歌 英伟达 台积电 三星 丰田汽车 大众汽车 @8</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3774413" target="_blank" class="news-link">SpaceX上市倒计时：错过它，等于错过2009年的英伟达？华尔街陷入两难</a> [9] <font color='grey'>- 13时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
