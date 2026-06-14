@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2026-06-14 13:16:39</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[GLOBAL_FILTER] # 过滤娱乐八卦、无关内容 娱乐 明星 八卦 电视剧 综艺 网红 /震惊|惊人|突发|重磅/i /恋爱|分手|结婚|离婚/i /游戏|手游|电竞/i</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7651030024938078251/" target="_blank" class="news-link">网红甲亢哥找大罗打招呼秀肌肉</a> [22] <font color='grey'>- 13时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[货币政策] 央行 货币政策 降准 降息 利率 准备金率 公开市场操作 MLF LPR 逆回购 SLF 再贷款</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7651049731136687670/" target="_blank" class="news-link">日本央行为何救不了日元</a> [18] <font color='grey'>- 13时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[投资策略] 价值投资 成长投资 周期股 消费股 科技股 金融股 防御性股票 主题投资 ETF 基金投资</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3774576" target="_blank" class="news-link">经过两周调整，美国大型科技股仓位已经回落至“中性水平”、甚至略低于盈利增长</a> [8] <font color='grey'>- 13时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[主题投资] 国企改革 央企改革 中特估 一带一路 数字经济 人工智能 机器人 人形机器人 低空经济 飞行汽车 商业航天 生物制造 量子技术 合成生物 氢能产业</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2399188" target="_blank" class="news-link">“白菜价”的人形机器人，没法进厂“打螺丝”</a> [12] <font color='grey'>- 13时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word"># 跨国企业（如果关注国际市场） [跨国企业] 苹果公司 特斯拉 微软 亚马逊 谷歌 英伟达 台积电 三星 丰田汽车 大众汽车 @8</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3774600" target="_blank" class="news-link">Anthropic全球下架Mythos和Fable模型的“幕后推手”：“主要股东”亚马逊CEO</a> [9] <font color='grey'>- 13时16分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
