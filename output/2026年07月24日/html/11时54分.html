@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-07-24 11:54:06</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[国际财经] 全球通胀 全球经济 经济衰退 经济复苏 供应链 产业链 国际贸易 关税 贸易摩擦 贸易战 技术封锁 制裁 地缘政治 俄乌冲突 中东局势</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2435803" target="_blank" class="news-link">长鑫科技产业链全景扫描：设备材料端率先受益 封测与存储模组产品导入验证持续进行</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8v0zX6TgFdS" target="_blank" class="news-link">中国—东盟外长发表有关中东局势的联合声明</a> [6] <font color='grey'>- 11时54分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[能源行业] 能源安全 石油 天然气 煤炭 电力 新能源 清洁能源 储能 充电桩 智能电网</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777821" target="_blank" class="news-link">新关税框架落地！美国对数十个国家加征10%-12.5%的关税，石油、天然气、食品得到豁免</a> [8] <font color='grey'>- 11时54分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">[消费行业] 消费升级 促消费 消费品 零售 餐饮 旅游 文化消费 体育消费 家电消费</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33649439" target="_blank" class="news-link">赛里木湖景区通报工作人员殴打旅游车司机：7人被警方控制，予以辞退</a> [10] <font color='grey'>- 11时54分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">[外汇市场] 人民币汇率 美元 欧元 日元 英镑 外汇 跨境资金流动</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777828" target="_blank" class="news-link">“关税战”来最惨的1天！美股“科技龙头”Mag 7单日市值蒸发近8000亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时54分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[科技龙头] 腾讯控股 阿里巴巴 百度 京东 拼多多 美团 小米集团 华为概念 字节跳动概念 @8</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2435721" target="_blank" class="news-link">【数读IPO】哈啰、青桔、美团背后的 “自行车代工龙头”今日申购</a> [10] <font color='grey'>- 11时54分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
