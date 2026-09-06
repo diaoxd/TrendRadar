@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2026-09-06 19:15:42</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">[美国经济] 美联储 联邦储备系统 加息 缩表 通胀 失业数据 非农就业 GDP数据 财政部 耶伦</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7682330411086660106/" target="_blank" class="news-link">财政部将向中国太平注资70亿</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781176" target="_blank" class="news-link">财政部大手笔注资银行、险企，总量达数千亿！</a> [6] <font color='grey'>- 19时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7682335092232077350/" target="_blank" class="news-link">财政部将向中国信保注资100亿</a> [9] <font color='grey'>- 19时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">[GLOBAL_FILTER] # 过滤娱乐八卦、无关内容 娱乐 明星 八卦 电视剧 综艺 网红 /震惊|惊人|突发|重磅/i /恋爱|分手|结婚|离婚/i /游戏|手游|电竞/i</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34019074" target="_blank" class="news-link">“葫芦娃爷爷”剪除网红葫芦：失独老人与一场过载的热情</a> [13] <font color='grey'>- 19时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word"># 过滤标题党词语 太疯狂 太震撼 惊人 意外 突发 重磅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2475115" target="_blank" class="news-link">周末要闻汇总：七部门联合印发《促进数字化绿色化协同转型发展实施方案（2026-2030年）》； 美国8月非农就业人数意外大增16.2万人</a> [11] <font color='grey'>- 19时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word"># 过滤无关内容 体育赛事 足球 篮球 奥运会</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7681602069752938559/" target="_blank" class="news-link">莫迪：印度将办令世界惊叹的奥运会</a> [8] <font color='grey'>- 19时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">[经济数据] GDP GDP增长 CPI 消费者物价指数 PPI 工业生产者出厂价格指数 PMI 采购经理指数 失业率 就业 进出口 贸易顺差 贸易逆差 外汇储备 固定资产投资 社会消费品零售总额 工业增加值</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2475058" target="_blank" class="news-link">美国非农“爆表”背后极诡异一幕：98%新增就业来自女性！</a> [6] <font color='grey'>- 19时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">[金融行业] 金融监管 银保监会 证监会 国家金融监督管理总局 银行 证券 保险 信托 基金 理财 资产管理 金融科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34019804" target="_blank" class="news-link">中国工商银行拟募资不超过1000亿元用于补充资本</a> [15] <font color='grey'>- 19时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">[市场情绪] 投资者情绪 市场信心 风险偏好 避险情绪 恐慌指数 贪婪指数 技术分析 基本面分析</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781162" target="_blank" class="news-link">高盛合伙人：夏季结束了，市场焦点都在“债市风暴”，而美股恐慌指数已跌至特朗普任期低点</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word"># 跨国企业（如果关注国际市场） [跨国企业] 苹果公司 特斯拉 微软 亚马逊 谷歌 英伟达 台积电 三星 丰田汽车 大众汽车 @8</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7682189960509705734/" target="_blank" class="news-link">马斯克：特斯拉Cybercab续航不打折</a> [20] <font color='grey'>- 19时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
